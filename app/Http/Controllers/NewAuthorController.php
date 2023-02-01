@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Author;
+use App\Author;
 use Illuminate\Http\Request;
 
 class NewAuthorController extends Controller

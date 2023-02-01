@@ -11,15 +11,12 @@
                     <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">New Author</a>
+                    <a class="nav-link text-light" href="{{ route('authors.index') }}">New Author</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">New Book</a>
+                    <a class="nav-link text-light" href="{{ route('books.index') }}">New Book</a>
                 </li>
-                
-                {{-- <li class="nav-item">
-                    <a class="nav-link text-light" href="{{route('books.index')}}">New Book</a>
-                </li> --}}
+            
 
             </ul>
         </div>
